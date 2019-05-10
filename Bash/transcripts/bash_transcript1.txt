@@ -1,0 +1,230 @@
+Script started on 2018-12-04 19:14:53-0500
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[00m$ ls
+ [0m[01;32m2048.py[0m                                         [34;42mNatural_Language_Processing_Example[0m
+ [34;42madventuretime[0m                                   [01;32mnaughty_and_nice.py[0m
+ [34;42madventuretutorial[0m                               [01;32mnlpexample.py[0m
+ [01;32managrams.py[0m                                     [01;32mn_queens.py[0m
+ [34;42mAnalyticsVidhya[0m                                 [01;32mNWAnalysis.py[0m
+ [34;42mAPIs[0m                                            [34;42mOpenAPI_Projects[0m
+ [01;32mapptest.py[0m                                      [01;32mopengltest.py[0m
+ [01;32maptlist.txt[0m                                     [01;32mOSInfo.py[0m
+ [01;32margv_list.py[0m                                    [01;32mOSInformation1.csv[0m
+ [34;42mAstropy[0m                                         [01;32mOSInformation.csv[0m
+ [01;32masynctutorial.py[0m                               [01;32m'pandas example.py'[0m
+ [01;32maudio.mp3[0m                                       [01;32mPandasExample.py[0m
+ [34;42mAutomate_the_Boring_Stuff_onlinematerials_v.2[0m   [01;32mpasswordgenerator.py[0m
+ [34;42mAutomation_Task[0m                                 [34;42mPDB_Examples[0m
+[01;32m'baseballstats(1).py'[0m                            [01;32mpiglatin.py[0m
+ [01;32mbaseballstats.py[0m                               [34;42m'Pip and Other Python Help'[0m
+ [01;32mbeautifulsoup4test1.py[0m                          [34;42mPipenv_Tutorial[0m
+ [01;32mbeautifulsoup4test.py[0m                           [01;32mplanets.py[0m
+ [01;32mbeautiful_soup_test.py[0m                          [01;32mplot.png[0m
+ [01;32mbestfit.py[0m                                      [01;32mpopular_pets.py[0m
+ [01;32mbitcoinsxe1.py[0m                                  [01;32mprawexample.py[0m
+ [01;32mbitcoinsxe.py[0m                                   [01;32mprimenumbersievedynamic.py[0m
+ [01;32mBMI.py[0m                                          [01;32mprimenumbersievestatc.py[0m
+ [01;32mBouncingBall.py[0m                                 [01;32mprogress_bar.py[0m
+ [01;32mcalcProd.py[0m                                     [34;42mPyAdventure[0m
+ [01;32mcalendartest.py[0m                                 [34;42mPyFighter[0m
+ [01;32mcard.py[0m                                         [34;42mPyGuiTutorial[0m
+ [01;32mcat.jpg[0m                                         [34;42mpylast-master[0m
+ [01;32mCensus.py[0m                                       [01;32mpylint.txt[0m
+[34;42m'Cheat Sheets'[0m                                   [34;42mpytest_project[0m
+ [34;42mCircles[0m                                         [34;42mPytest_Sample[0m
+ [01;32mclassificationexample1.py[0m                      [34;42m'Python Cheat Sheets and other PDFs'[0m
+ [01;32mclassificationexample2.py[0m                      [34;42m'Python Docs'[0m
+ [01;32mclassificationexample.py[0m                        [34;42mPython_Excel[0m
+ [01;32mclienticon.ico[0m                                  [01;32mPythonModules.txt[0m
+ [34;42mcpython[0m                                         [34;42mPythonScripts[0m
+ [01;32mcredentials.py[0m                                  [01;32mPythonTree.txt[0m
+ [01;32mcuberotate.py[0m                                   [01;32mquakers_edgelist.csv[0m
+[01;32m'DataExample(1).py'[0m                              [01;32mquakers_nodelist.csv[0m
+ [01;32mDataExample.py[0m                                  [01;32mrandomspin.py[0m
+ [34;42mDataModels[0m                                      [34;42mRaspberry_PI_Python[0m
+ [34;42mDatatoFishTutorial[0m                              [34;42mRealPythonTutorials[0m
+ [01;32mdebug.log[0m                                       [01;32mritcher_scale.py[0m
+ [34;42mDeck_of_cards[0m                                   [34;42mRubik_Cube[0m
+ [01;32mdeck.py[0m                                         [01;32mscatterplt.py[0m
+ [01;32mdjango-admin.py[0m                                 [01;32mscipyexample.py[0m
+ [34;42mDjango_Tutorial[0m                                 [01;32mseabornexample.py[0m
+ [01;32meuclideandistancecalc1.py[0m                       [01;32mseaborntutorial.py[0m
+ [01;32meuclideandistancecalc2.py[0m                       [34;42mSeleniumStarter[0m
+ [01;32meuclideandistancecalc3.py[0m                      [01;32m'Self-organizing Maps example.py'[0m
+ [01;32meuclideandistancecalc.py[0m                        [34;42mSentDexTutor[0m
+ [01;32mexamples1.py[0m                                    [34;42mspaceengine-master[0m
+ [01;32mexamples.py[0m                                     [34;42mSpeech_Recongition[0m
+ [01;32mf2py.py[0m                                         [01;32mSQLAlchemyTutorial.py[0m
+ [01;32mfactorial.py[0m                                    [34;42mSqlite_Databases[0m
+ [34;42mFlask_Tutorial[0m                                  [01;32mSQLitexample.py[0m
+ [34;42mFlight_Tracker[0m                                  [34;42mStat_Example[0m
+ [01;32mgame_life.py[0m                                    [01;32mstopwatch.py[0m
+ [01;32mgameloopdemo.py[0m                                 [01;32mstyle_sheets_reference.py[0m
+ [01;32mgame_of_life1.py[0m                                [01;32msvmtutorial.py[0m
+ [01;32mgame_of_life.py[0m                                 [34;42mswc-python[0m
+ [34;42mGames[0m                                           [01;32msys_version.py[0m
+ [01;32mguess.py[0m                                        [01;32mtest1.py[0m
+ [34;42mGUI[0m                                             [34;42mTest_Cases[0m
+ [34;42mhackingciphers[0m                                  [01;32mtestdb1.py[0m
+ [01;32mhello.py[0m                                        [01;32mtestdb.py[0m
+ [01;32mhistograms.py[0m                                   [01;32mTestGUI.py[0m
+[01;32m'ImageTest(1).py'[0m                                [01;32mtest.py[0m
+ [01;32mImageTest.py[0m                                    [34;42mTextblob_Tutorial[0m
+ [01;32minsults.csv[0m                                     [34;42mText_RPG[0m
+ [01;32mJarvis.py[0m                                       [34;42mThings_Createin_Python[0m
+ [01;32mjokes.py[0m                                       [01;32m'Tickets to Follow.txt'[0m
+ [34;42mJupyter-Notebooks[0m                               [01;32mtimemachine.py[0m
+ [01;32mkeylogger.py[0m                                    [01;32mtipcalculator.py[0m
+ [01;32mLastFMplaylist.py[0m                               [34;42mTkinter_Project[0m
+ [01;32mLastFMplaylist_real.py[0m                          [01;32mtranscript1[0m
+ [01;32mlinearregression.pickle[0m                         [01;32mtriangulation.py[0m
+ [01;32mlottery_example.py[0m                              [01;32mturtle_race.py[0m
+[34;42m'Machine Learning'[0m                               [01;32mtweets.txt[0m
+ [01;32mmachinelearningtutorial.py[0m                      [34;42mTwilio_App[0m
+ [01;32mmagic.py[0m                                        [01;32mtypes_example.py[0m
+ [34;42mMaze-Game[0m                                      [34;42m'URL Handling'[0m
+ [34;42mMedia_Player[0m                                    [34;42mvenv[0m
+ [01;32mmods1.txt[0m                                       [01;32mwatch.jpg[0m
+ [01;32mmonte.py[0m                                        [34;42mWeather_Project[0m
+ [34;42mMusicPlayer_Apps[0m                                [34;42mWebcrawler[0m
+ [34;42mMySQL_DB_Tutorial[0m                               [01;32myapftest.py[0m
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[00m$ python maig[K[K[K[K[K3 magic.py 
+abracadabra
+spam, eggs, ham
+Hello world
+True
+True
+THIS IS A SENTENCE.
+an all caps sentence
+['spam', 'eggs', 'ham']
+0
+9
+99
+42
+15
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[00m$ python3 types_example.py 
+5
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[00m$ python3 types_example.py [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kimemachine.py 
+12/04/2018 19:15:44
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[00m$ python3 timemachine.py [K[K[K[K[K[K[K[K[K[K[K[K[K[Krig[Kangulation.py 
+Traceback (most recent call last):
+  File "triangulation.py", line 2, in <module>
+    import plotly.plotly as py
+ModuleNotFoundError: No module named 'plotly'
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[00m$ vim transcript1 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;33r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[33;1H"transcript1" [noeol] 113L, 9728C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HScript started on 2018-12-04 19:14:53-0500
+[34m^[[m]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^G^[[m[01;32mJackson144@MISAA[3;1HGMCBA304839[34m^[[m[00m:[34m^[[m[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^[[m[00m$ ls[34m^M
+[m [34m^[[m[0m[34m^[[m[01;32m2048.py[34m^[[m[0m[41C[34m^[[m[34;42mNatural_Language_Processing_Example[34m^[[m[0m[34m^M
+[m [34m^[[m[34;42madventuretime[34m^[[m[0m[35C[34m^[[m[01;32mnaughty_and_nice.py[34m^[[m[0m[34m^M
+[m [34m^[[m[34;42madventuretutorial[34m^[[m[0m[31C[34m^[[m[01;32mnlpexample.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32managrams.py[34m^[[m[0m[37C[34m^[[m[01;32mn_queens.py[34m^[[m[0m[34m^M
+[m [34m^[[m[34;42mAnalyticsVidhya[34m^[[m[0m[33C[34m^[[m[01;32mNWAnalysis.py[34m^[[m[0m[34m^M
+[m [34m^[[m[34;42mAPIs[34m^[[m[0m[44C[34m^[[m[34;42mOpenAPI_Projects[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mapptest.py[34m^[[m[0m[38C[34m^[[m[01;32mopengltest.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32maptlist.txt[34m^[[m[0m[37C[34m^[[m[01;32mOSInfo.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32margv_list.py[34m^[[m[0m[36C[34m^[[m[01;32mOSInformation1.csv[34m^[[m[0m[34m^M
+[m [34m^[[m[34;42mAstropy[34m^[[m[0m[41C[34m^[[m[01;32mOSInformation.csv[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32masynctutorial.py[34m^[[m[0m[31C[34m^[[m[01;32m'pandas example.py'[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32maudio.mp3[34m^[[m[0m[39C[34m^[[m[01;32mPandasExample.py[34m^[[m[0m[34m^M
+[m [34m^[[m[34;42mAutomate_the_Boring_Stuff_onlinematerials_v.2[34m^[[m[0m   [34m^[[m[01;32mpasswordgenerator.py[34m^[[m[0m[34m^M
+[m [34m^[[m[34;42mAutomation_Task[34m^[[m[0m[33C[34m^[[m[34;42mPDB_Examples[34m^[[m[0m[34m^M
+^[[m[01;32m'baseballstats(1).py'[34m^[[m[0m[28C[34m^[[m[01;32mpiglatin.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mbaseballstats.py[34m^[[m[0m[31C[34m^[[m[34;42m'Pip and Other Python Help'[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mbeautifulsoup4test1.py[34m^[[m[0m[26C[34m^[[m[34;42mPipenv_Tutorial[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mbeautifulsoup4test.py[34m^[[m[0m[27C[34m^[[m[01;32mplanets.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mbeautiful_soup_test.py[34m^[[m[0m[26C[34m^[[m[01;32mplot.png[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mbestfit.py[34m^[[m[0m[38C[34m^[[m[01;32mpopular_pets.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mbitcoinsxe1.py[34m^[[m[0m[34C[34m^[[m[01;32mprawexample.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mbitcoinsxe.py[34m^[[m[0m[35C[34m^[[m[01;32mprimenumbersievedynamic.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mBMI.py[34m^[[m[0m[42C[34m^[[m[01;32mprimenumbersievestatc.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mBouncingBall.py[34m^[[m[0m[33C[34m^[[m[01;32mprogress_bar.py[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mcalcProd.py[34m^[[m[0m[37C[34m^[[m[34;42mPyAdventure[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mcalendartest.py[34m^[[m[0m[33C[34m^[[m[34;42mPyFighter[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mcard.py[34m^[[m[0m[41C[34m^[[m[34;42mPyGuiTutorial[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mcat.jpg[34m^[[m[0m[41C[34m^[[m[34;42mpylast-master[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mCensus.py[34m^[[m[0m[39C[34m^[[m[01;32mpylint.txt[34m^[[m[0m[34m^M[m[33;103H1,1[11CTop[1;1H[?25h[?25l[33;93H~@k[1;1H[33;93H   [2;1H[33;103H2[2;1H[?25h[?25l[33;93H~@k[2;1H[33;93H   [4;1H[33;103H3[4;1H[?25h[?25l[33;93H~@k[4;1H[33;93H   [5;1H[33;103H4[5;1H[?25h[?25l[33;93H~@k[5;1H[33;93H   [6;1H[33;103H5[6;1H[?25h[?25l[33;93H~@k[6;1H[33;93H   [7;1H[33;103H6[7;1H[?25h[?25l[33;93H~@k[7;1H[33;93H   [8;1H[33;103H7[8;1H[?25h[?25l[33;93H~@k[8;1H[33;93H   [9;1H[33;103H8[9;1H[?25h[?25l[33;93H~@k[9;1H[33;93H   [10;1H[33;103H9[10;1H[?25h[?25l[33;93H~@k[10;1H[33;93H   [11;1H[33;103H10,1[11;1H[?25h[?25l[33;93H~@k[11;1H[33;93H   [12;1H[33;104H1[12;1H[?25h[?25l[33;93H~@k[12;1H[33;93H   [13;1H[33;104H2[13;1H[?25h[?25l[33;93H~@k[13;1H[33;93H   [14;1H[33;104H3[14;1H[?25h[?25l[33;93H~@k[14;1H[33;93H   [15;1H[33;104H4[15;1H[?25h[?25l[33;93H~@k[15;1H[33;93H   [16;1H[33;104H5[16;1H[?25h[?25l[33;93H~@k[16;1H[33;93H   [17;1H[33;104H6[17;1H[?25h[?25l[33;93H~@k[17;1H[33;93H   [18;1H[33;104H7[18;1H[?25h[?25l[33;93H~@k[18;1H[33;93H   [19;1H[33;104H8[19;1H[?25h[?25l[33;93H~@k[19;1H[33;93H   [20;1H[33;104H9[20;1H[?25h[?25l[33;93H~@k[20;1H[33;93H   [21;1H[33;103H20[21;1H[?25h[?25l[33;93H~@k[21;1H[33;93H   [22;1H[33;104H1[22;1H[?25h[?25l[33;93H~@k[22;1H[33;93H   [23;1H[33;104H2[23;1H[?25h[?25l[33;93H~@k[23;1H[33;93H   [24;1H[33;104H3[24;1H[?25h[?25l[33;93H~@k[24;1H[33;93H   [25;1H[33;104H4[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [26;1H[33;104H5[26;1H[?25h[?25l[33;93H~@k[26;1H[33;93H   [27;1H[33;104H6[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H[34m^[[m[34;42m'Cheat Sheets'[34m^[[m[0m[35C[34m^[[m[34;42mpytest_project[34m^[[m[0m[34m^M[m[33;1H[K[33;103H27,1[11C1%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [26;1H[1;32r[1;1H[2M[1;33r[31;2H[34m^[[m[34;42mCircles[34m^[[m[0m[41C[34m^[[m[34;42mPytest_Sample[34m^[[m[0m[34m^M
+[m [34m^[[m[01;32mclassificationexample1.py[34m^[[m[0m[22C[34m^[[m[34;42m'Python Cheat Sheets and other PDFs'[34m^[[m[0m[34m^M[m[33;103H[K[33;103H28,1[11C2%[26;1H[?25h[?25l[33;93H~@k[26;1H[33;93H   [27;1H[33;104H9[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mclassificationexample2.py[34m^[[m[0m[22C[34m^[[m[34;42m'Python Docs'[34m^[[m[0m[34m^M[m[33;103H[K[33;103H30,1[11C3%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mclassificationexample.py[34m^[[m[0m[24C[34m^[[m[34;42mPython_Excel[34m^[[m[0m[34m^M[m[33;103H[K[33;103H31,1[11C4%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mclienticon.ico[34m^[[m[0m[34C[34m^[[m[01;32mPythonModules.txt[34m^[[m[0m[34m^M[m[33;103H[K[33;103H32,1[11C6%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mcpython[34m^[[m[0m[41C[34m^[[m[34;42mPythonScripts[34m^[[m[0m[34m^M[m[33;103H[K[33;103H33,1[11C7%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mcredentials.py[34m^[[m[0m[34C[34m^[[m[01;32mPythonTree.txt[34m^[[m[0m[34m^M[m[33;103H[K[33;103H34,1[11C8%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mcuberotate.py[34m^[[m[0m[35C[34m^[[m[01;32mquakers_edgelist.csv[34m^[[m[0m[34m^M[m[33;103H[K[33;103H35,1[11C9%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H[34m^[[m[01;32m'DataExample(1).py'[34m^[[m[0m[30C[34m^[[m[01;32mquakers_nodelist.csv[34m^[[m[0m[34m^M[m[33;103H[K[33;103H36,1[10C11%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mDataExample.py[34m^[[m[0m[34C[34m^[[m[01;32mrandomspin.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H37,1[10C12%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mDataModels[34m^[[m[0m[38C[34m^[[m[34;42mRaspberry_PI_Python[34m^[[m[0m[34m^M[m[33;103H[K[33;103H38,1[10C13%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mDatatoFishTutorial[34m^[[m[0m[30C[34m^[[m[34;42mRealPythonTutorials[34m^[[m[0m[34m^M[m[33;103H[K[33;103H39,1[10C14%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mdebug.log[34m^[[m[0m[39C[34m^[[m[01;32mritcher_scale.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H40,1[10C16%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mDeck_of_cards[34m^[[m[0m[35C[34m^[[m[34;42mRubik_Cube[34m^[[m[0m[34m^M[m[33;103H[K[33;103H41,1[10C17%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mdeck.py[34m^[[m[0m[41C[34m^[[m[01;32mscatterplt.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H42,1[10C18%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mdjango-admin.py[34m^[[m[0m[33C[34m^[[m[01;32mscipyexample.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H43,1[10C19%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mDjango_Tutorial[34m^[[m[0m[33C[34m^[[m[01;32mseabornexample.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H44,1[10C20%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32meuclideandistancecalc1.py[34m^[[m[0m[23C[34m^[[m[01;32mseaborntutorial.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H45,1[10C22%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32meuclideandistancecalc2.py[34m^[[m[0m[23C[34m^[[m[34;42mSeleniumStarter[34m^[[m[0m[34m^M[m[33;103H[K[33;103H46,1[10C23%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32meuclideandistancecalc3.py[34m^[[m[0m[22C[34m^[[m[01;32m'Self-organizing Maps example.py'[34m^[[m[0m[34m^M[m[33;103H[K[33;103H47,1[10C24%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32meuclideandistancecalc.py[34m^[[m[0m[24C[34m^[[m[34;42mSentDexTutor[34m^[[m[0m[34m^M[m[33;103H[K[33;103H48,1[10C25%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mexamples1.py[34m^[[m[0m[36C[34m^[[m[34;42mspaceengine-master[34m^[[m[0m[34m^M[m[33;103H[K[33;103H49,1[10C27%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mexamples.py[34m^[[m[0m[37C[34m^[[m[34;42mSpeech_Recongition[34m^[[m[0m[34m^M[m[33;103H[K[33;103H50,1[10C28%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mf2py.py[34m^[[m[0m[41C[34m^[[m[01;32mSQLAlchemyTutorial.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H51,1[10C29%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mfactorial.py[34m^[[m[0m[36C[34m^[[m[34;42mSqlite_Databases[34m^[[m[0m[34m^M[m[33;103H[K[33;103H52,1[10C30%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mFlask_Tutorial[34m^[[m[0m[34C[34m^[[m[01;32mSQLitexample.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H53,1[10C32%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mFlight_Tracker[34m^[[m[0m[34C[34m^[[m[34;42mStat_Example[34m^[[m[0m[34m^M[m[33;103H[K[33;103H54,1[10C33%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mgame_life.py[34m^[[m[0m[36C[34m^[[m[01;32mstopwatch.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H55,1[10C34%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mgameloopdemo.py[34m^[[m[0m[33C[34m^[[m[01;32mstyle_sheets_reference.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H56,1[10C35%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mgame_of_life1.py[34m^[[m[0m[32C[34m^[[m[01;32msvmtutorial.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H57,1[10C37%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mgame_of_life.py[34m^[[m[0m[33C[34m^[[m[34;42mswc-python[34m^[[m[0m[34m^M[m[33;103H[K[33;103H58,1[10C38%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mGames[34m^[[m[0m[43C[34m^[[m[01;32msys_version.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H59,1[10C39%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mguess.py[34m^[[m[0m[40C[34m^[[m[01;32mtest1.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H60,1[10C40%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mGUI[34m^[[m[0m[45C[34m^[[m[34;42mTest_Cases[34m^[[m[0m[34m^M[m[33;103H[K[33;103H61,1[10C41%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mhackingciphers[34m^[[m[0m[34C[34m^[[m[01;32mtestdb1.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H62,1[10C43%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mhello.py[34m^[[m[0m[40C[34m^[[m[01;32mtestdb.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H63,1[10C44%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mhistograms.py[34m^[[m[0m[35C[34m^[[m[01;32mTestGUI.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H64,1[10C45%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H[34m^[[m[01;32m'ImageTest(1).py'[34m^[[m[0m[32C[34m^[[m[01;32mtest.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H65,1[10C46%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mImageTest.py[34m^[[m[0m[36C[34m^[[m[34;42mTextblob_Tutorial[34m^[[m[0m[34m^M[m[33;103H[K[33;103H66,1[10C48%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32minsults.csv[34m^[[m[0m[37C[34m^[[m[34;42mText_RPG[34m^[[m[0m[34m^M[m[33;103H[K[33;103H67,1[10C49%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mJarvis.py[34m^[[m[0m[39C[34m^[[m[34;42mThings_Createin_Python[34m^[[m[0m[34m^M[m[33;103H[K[33;103H68,1[10C50%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mjokes.py[34m^[[m[0m[39C[34m^[[m[01;32m'Tickets to Follow.txt'[34m^[[m[0m[34m^M[m[33;103H[K[33;103H69,1[10C51%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mJupyter-Notebooks[34m^[[m[0m[31C[34m^[[m[01;32mtimemachine.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H70,1[10C53%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mkeylogger.py[34m^[[m[0m[36C[34m^[[m[01;32mtipcalculator.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H71,1[10C54%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mLastFMplaylist.py[34m^[[m[0m[31C[34m^[[m[34;42mTkinter_Project[34m^[[m[0m[34m^M[m[33;103H[K[33;103H72,1[10C55%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mLastFMplaylist_real.py[34m^[[m[0m[26C[34m^[[m[01;32mtranscript1[34m^[[m[0m[34m^M[m[33;103H[K[33;103H73,1[10C56%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mlinearregression.pickle[34m^[[m[0m[25C[34m^[[m[01;32mtriangulation.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H74,1[10C58%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mlottery_example.py[34m^[[m[0m[30C[34m^[[m[01;32mturtle_race.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H75,1[10C59%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H[34m^[[m[34;42m'Machine Learning'[34m^[[m[0m[31C[34m^[[m[01;32mtweets.txt[34m^[[m[0m[34m^M[m[33;103H[K[33;103H76,1[10C60%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mmachinelearningtutorial.py[34m^[[m[0m[22C[34m^[[m[34;42mTwilio_App[34m^[[m[0m[34m^M[m[33;103H[K[33;103H77,1[10C61%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mmagic.py[34m^[[m[0m[40C[34m^[[m[01;32mtypes_example.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H78,1[10C62%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mMaze-Game[34m^[[m[0m[38C[34m^[[m[34;42m'URL Handling'[34m^[[m[0m[34m^M[m[33;103H[K[33;103H79,1[10C64%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mMedia_Player[34m^[[m[0m[36C[34m^[[m[34;42mvenv[34m^[[m[0m[34m^M[m[33;103H[K[33;103H80,1[10C65%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mmods1.txt[34m^[[m[0m[39C[34m^[[m[01;32mwatch.jpg[34m^[[m[0m[34m^M[m[33;103H[K[33;103H81,1[10C66%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[01;32mmonte.py[34m^[[m[0m[40C[34m^[[m[34;42mWeather_Project[34m^[[m[0m[34m^M[m[33;103H[K[33;103H82,1[10C67%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mMusicPlayer_Apps[34m^[[m[0m[32C[34m^[[m[34;42mWebcrawler[34m^[[m[0m[34m^M[m[33;103H[K[33;103H83,1[10C69%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;2H[34m^[[m[34;42mMySQL_DB_Tutorial[34m^[[m[0m[31C[34m^[[m[01;32myapftest.py[34m^[[m[0m[34m^M[m[33;103H[K[33;103H84,1[10C70%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [25;1H[1;32r[1;1H[3M[1;33r[30;1H[34m^[[m]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^G^[[m[01;32mJackson144@MISAA[31;1HGMCBA304839[34m^[[m[00m:[34m^[[m[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^[[m[00m$ python maig[34m^H^[[m[K[34m^H^[[m[K[34m^^[32;1HH^[[m[K[34m^H^[[m[K[34m^H^[[m[K3 magic.py [34m^M[m[33;103H[K[33;103H85,1[10C72%[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [26;1H[33;104H6[26;1H[?25h[?25l[33;93H~@k[26;1H[33;93H   [27;1H[33;104H7[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1Habracadabra[34m^M[m[33;103H[K[33;103H88,1[10C73%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1Hspam, eggs, ham[34m^M[m[33;103H[K[33;103H89,1[10C74%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [25;1H[1;32r[1;1H[3M[1;33r[30;1HHello world[34m^M[m
+True[34m^M[m
+True[34m^M[m[33;103H[K[33;103H90,1[10C78%[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1HTHIS IS A SENTENCE.[34m^M[m[33;103H[K[33;103H91,1[10C79%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1Han all caps sentence[34m^M[m[33;103H[K[33;103H92,1[10C80%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H['spam', 'eggs', 'ham'][34m^M[m[33;103H[K[33;103H93,1[10C81%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H0[34m^M[m[33;103H[K[33;103H94,1[10C83%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H9[34m^M[m[33;103H[K[33;103H95,1[10C84%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H99[34m^M[m[33;103H[K[33;103H96,1[10C85%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H42[34m^M[m[33;103H[K[33;103H97,1[10C86%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[27;1H[106m[[21C][m[32;1H15[34m^M[m[33;103H[K[33;103H98,1[10C87%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [25;1H[1;32r[1;1H[3M[1;33r[24;1H[[21C][30;1H[34m^[[m]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^G^[[m[01;32mJackson144@MISAA[31;1HGMCBA304839[34m^[[m[00m:[34m^[[m[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^[[m[00m$ python3 types_example.pyy[32;1H [34m^M[m[33;103H[K[33;103H99,1[10C89%[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [26;1H[33;103H100,1[26;1H[?25h[?25l[33;93H~@k[26;1H[33;93H   [27;1H[33;105H1[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;1H5[34m^M[m[33;103H[K[33;103H102,1[9C90%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [25;1H[1;32r[1;1H[3M[1;33r[30;1H[34m^[[m]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^G^[[m[01;32mJackson144@MISAA[31;1HGMCBA304839[34m^[[m[00m:[34m^[[m[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^[[m[00m$ python3 types_example.pyy[32;1H [34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Kimemachine.py [34m^M[m[33;103H[K[33;103H103,1[9C91%[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [25;1H[1;32r[32;1H
+[1;33r[32;1H12/04/2018 19:15:44[34m^M[m[33;103H[K[33;103H104,1[9C93%[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [25;1H[1;32r[1;1H[3M[1;33r[30;1H[34m^[[m]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^G^[[m[01;32mJackson144@MISAA[31;1HGMCBA304839[34m^[[m[00m:[34m^[[m[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^[[m[00m$ python3 timemachine.py [34m^^[32;1HH^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Krig[34m^G^H^[[m[Kangulation.py [34m^M[m[33;103H[K[33;103H105,1[9C94%[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [25;1H[1;32r[32;1H
+[1;33r[32;1HTraceback (most recent call last):[34m^M[m[33;103H[K[33;103H106,1[9C95%[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [27;1H[1;32r[32;1H
+[1;33r[32;3HFile "triangulation.py", line 2, in <module>[34m^M[m[33;103H[K[33;103H107,1[9C96%[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [22;1H[1;32r[1;1H[6M[1;33r[27;5Himport plotly.plotly as py[34m^M[m
+ModuleNotFoundError: No module named 'plotly'[34m^M
+^[[m]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[34m^G^[[m[01;32mJackson144@MISAA[30;1HGMCBA304839[34m^[[m[00m:[34m^[[m[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programmi
+[94m~                                                                                                                       [32;1H~                                                                                                                       [m[33;103H[K[33;103H108,1[9CBot[22;1H[?25h[?25l[33;93H~@k[22;1H[33;93H   [25;1H[33;105H9[25;1H[?25h[?25l[33;93H~@k[25;1H[33;93H   [26;1H[33;104H10[26;1H[?25h[?25l[33;93H~@k[26;1H[33;93H   [27;1H[33;105H1[27;1H[?25h[?25l[33;93H~@k[27;1H[33;93H   [28;1H[33;105H2[28;1H[?25h[?25l[33;93H~@k[28;1H[33;93H   [29;1H[33;105H3[29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H~@k[29;1H[33;93H   [29;1H[?25h[?25l[33;93H^[[29;1H[33;93H  [29;1H[33;93H^[[29;1H[33;93H  [29;1H[?25h[?25l[33;93H:[29;1H[33;93H[K[33;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"transcript1"
+[97m[41mWARNING: The file has been changed since reading it!!![?2004h[m
+[32mDo you really want to write to it (y/n)?[?25h[mN
+[?25l[32mDo you really want to write to it (y/n)?[?25h[mn[?2004h
+[32mPress ENTER or type command to continue[?25l[29;1H[m[1;1H[4L[1;1Habracadabra[34m^M[m
+spam, eggs, ham[34m^M[m
+Hello world[34m^M[m
+True[34m^M[m[33;1H[K[33;103H113,1[9CBot[29;1H[?25h[?25l[33;93H:[29;1H[33;93H[K[33;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[33;1H[K[33;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Python[00m$ star[K[K[K[Kexit
+exit
+
+Script done on 2018-12-04 19:17:36-0500

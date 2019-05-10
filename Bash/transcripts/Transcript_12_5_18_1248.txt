@@ -1,0 +1,532 @@
+Script started on 2018-12-05 12:48:09-0500
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[00m$ man f tp
+[?1049h[22;0;0t[?1h=FTP(1)                                      BSD General Commands Manual                                     FTP(1)[m
+[m
+[1mNAME[0m[m
+     [1mftp[0m — Internet file transfer program[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mftp[0m [[1m-46pinegvd[0m] [[4mhost[24m [[4mport[24m]][m
+     [1mpftp[0m [[1m-46inegvd[0m] [[4mhost[24m [[4mport[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+     [1mFtp[0m is the user interface to the Internet standard File Transfer Protocol.  The program allows a user to[m
+     transfer files to and from a remote network site.[m
+[m
+     Options may be specified at the command line, or to the command interpreter.[m
+[m
+     [1m-4[0m    Use only IPv4 to contact any host.[m
+[m
+     [1m-6[0m    Use IPv6 only.[m
+[m
+     [1m-p[0m    Use passive mode for data transfers. Allows use of ftp in environments where a firewall prevents con‐[m
+           nections from the outside world back to the client machine. Requires that the ftp server support the[m
+           PASV command. This is the default if invoked as [1mpftp.[0m[m
+[m
+     [1m-i[0m    Turns off interactive prompting during multiple file transfers.[m
+[m
+     [1m-n[0m    Restrains [1mftp[0m from attempting “auto-login” upon initial connection.  If auto-login is enabled, [1mftp[0m will[m
+           check the [4m.netrc[24m (see netrc(5)) file in the user's home directory for an entry describing an account on[m
+           the remote machine.  If no entry exists, [1mftp[0m will prompt for the remote machine login name (default is[m
+           the user identity on the local machine), and, if necessary, prompt for a password and an account with[m
+           which to login.[m
+[m
+     [1m-e[0m    Disables command editing and history support, if it was compiled into the [1mftp[0m executable. Otherwise,[m
+[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K[K           does nothing.[m
+[m
+     [1m-g[0m    Disables file name globbing.[m
+[m
+     [1m-v[0m    Verbose option forces [1mftp[0m to show all responses from the remote server, as well as report on data[m
+           transfer statistics.[m
+[m
+     [1m-d[0m    Enables debugging.[m
+[m
+     The client host and an optional port number with which [1mftp[0m is to communicate may be specified on the command[m
+     line.  If this is done, [1mftp[0m will immediately attempt to establish a connection to an FTP server on that host;[m
+     otherwise, [1mftp[0m will enter its command interpreter and await instructions from the user.  When [1mftp[0m is awaiting[m
+     commands from the user the prompt ‘ftp>’ is provided to the user.  The following commands are recognized by[m
+     [1mftp[0m:[m
+[m
+     [1m![0m [[4mcommand[24m [[4margs[24m]][m
+                 Invoke an interactive shell on the local machine.  If there are arguments, the first is taken to[m
+                 be a command to execute directly, with the rest of the arguments as its arguments.[m
+[m
+     [1m$[0m [4mmacro-name[24m [[4margs[24m][m
+                 Execute the macro [4mmacro-name[24m that was defined with the [1mmacdef[0m command.  Arguments are passed to[m
+                 the macro unglobbed.[m
+[m
+     [1maccount[0m [[4mpasswd[24m][m
+                 Supply a supplemental password required by a remote system for access to resources once a login[m
+                 has been successfully completed.  If no argument is included, the user will be prompted for an[m
+                 account password in a non-echoing input mode.[m
+[m
+     [1mappend[0m [4mlocal-file[24m [[4mremote-file[24m][m
+                 Append a local file to a file on the remote machine.  If [4mremote-file[24m is left unspecified, the[m
+                 local file name is used in naming the remote file after being altered by any [1mntrans[0m or [1mnmap[0m set‐[m
+                 ting.  File transfer uses the current settings for [1mtype[0m, [1mformat[0m, [1mmode[0m, and [1mstructure[0m.[m
+[7m Manual page ftp(1) line 33 (press h for help or q to quit)[27m[K[K[m
+     [1mascii[0m       Set the file transfer [1mtype[0m to network ASCII.  This is the default type.[m
+[m
+     [1mbell[0m        Arrange that a bell be sounded after each file transfer command is completed.[m
+[m
+     [1mbinary[0m      Set the file transfer [1mtype[0m to support binary image transfer.[m
+[m
+     [1mbye[0m         Terminate the FTP session with the remote server and exit [1mftp[0m.  An end of file will also termi‐[m
+                 nate the session and exit.[m
+[m
+     [1mcase[0m        Toggle remote computer file name case mapping during [1mmget[0m commands.  When [1mcase[0m is on (default is[m
+                 off), remote computer file names with all letters in upper case are written in the local direc‐[m
+                 tory with the letters mapped to lower case.[m
+[m
+     [1mcd[0m [4mremote-directory[24m[m
+                 Change the working directory on the remote machine to [4mremote-directory[24m.[m
+[m
+     [1mcdup[0m        Change the remote machine working directory to the parent of the current remote machine working[m
+                 directory.[m
+[m
+     [1mchmod[0m [4mmode[24m [4mfile-name[24m[m
+                 Change the permission modes of the file [4mfile-name[24m on the remote system to [4mmode[24m.[m
+[m
+     [1mclose[0m       Terminate the FTP session with the remote server, and return to the command interpreter.  Any[m
+                 defined macros are erased.[m
+[m
+     [1mcr[0m          Toggle carriage return stripping during ascii type file retrieval.  Records are denoted by a car‐[m
+                 riage return/linefeed sequence during ascii type file transfer.  When [1mcr[0m is on (the default),[m
+                 carriage returns are stripped from this sequence to conform with the UNIX single linefeed record[m
+                 delimiter.  Records on non-UNIX remote systems may contain single linefeeds; when an ascii type[m
+                 transfer is made, these linefeeds may be distinguished from a record delimiter only when [1mcr[0m is[m
+                 off.[m
+[7m Manual page ftp(1) line 65 (press h for help or q to quit)[27m[K[K[m
+     [1mqc[0m          Toggle the printing of control characters in the output of ASCII type commands.  When this is[m
+                 turned on, control characters are replaced with a question mark if the output file is the stan‐[m
+                 dard output.  This is the default when the standard output is a tty.[m
+[m
+     [1mdelete[0m [4mremote-file[24m[m
+                 Delete the file [4mremote-file[24m on the remote machine.[m
+[m
+     [1mdebug[0m [[4mdebug-value[24m][m
+                 Toggle debugging mode.  If an optional [4mdebug-value[24m is specified it is used to set the debugging[m
+                 level.  When debugging is on, [1mftp[0m prints each command sent to the remote machine, preceded by the[m
+                 string ‘-->’[m
+[m
+     [1mdir[0m [[4mremote-directory[24m] [[4mlocal-file[24m][m
+                 Print a listing of the directory contents in the directory, [4mremote-directory[24m, and, optionally,[m
+                 placing the output in [4mlocal-file[24m.  If interactive prompting is on, [1mftp[0m will prompt the user to[m
+                 verify that the last argument is indeed the target local file for receiving [1mdir[0m output.  If no[m
+                 directory is specified, the current working directory on the remote machine is used.  If no local[m
+                 file is specified, or [4mlocal-file[24m is [1m-[0m, output comes to the terminal.[m
+[m
+     [1mdisconnect[0m  A synonym for [4mclose[24m.[m
+[m
+     [1mform[0m [4mformat[24m[m
+                 Set the file transfer [1mform[0m to [4mformat[24m.  The default format is “file”.[m
+[m
+     [1mget[0m [4mremote-file[24m [[4mlocal-file[24m][m
+                 Retrieve the [4mremote-file[24m and store it on the local machine.  If the local file name is not speci‐[m
+                 fied, it is given the same name it has on the remote machine, subject to alteration by the cur‐[m
+                 rent [1mcase[0m, [1mntrans[0m, and [1mnmap[0m settings.  The current settings for [1mtype[0m, [1mform[0m, [1mmode[0m, and [1mstructure[0m[m
+                 are used while transferring the file.[m
+[m
+     [1mglob[0m        Toggle filename expansion for [1mmdelete[0m, [1mmget[0m and [1mmput[0m.  If globbing is turned off with [1mglob[0m, the[m
+[7m Manual page ftp(1) line 97 (press h for help or q to quit)[27m[K[K                 file name arguments are taken literally and not expanded.  Globbing for [1mmput[0m is done as in[m
+                 csh(1).  For [1mmdelete[0m and [1mmget[0m, each remote file name is expanded separately on the remote machine[m
+                 and the lists are not merged.  Expansion of a directory name is likely to be different from[m
+                 expansion of the name of an ordinary file: the exact result depends on the foreign operating sys‐[m
+                 tem and ftp server, and can be previewed by doing ‘mls remote-files -’ Note: [1mmget[0m and [1mmput[0m are[m
+                 not meant to transfer entire directory subtrees of files.  That can be done by transferring a[m
+                 tar(1) archive of the subtree (in binary mode).[m
+[m
+     [1mhash[0m [[4mincrement[24m][m
+                 Toggle hash-sign (``#'') printing for each transferred data block, but only in the absence of an[m
+                 argument.  The size of a data block is set to 1024 bytes by default, but can be changed by the[m
+                 argument [4mincrement[24m, which also accepts the suffixed multipliers 'k' and 'K' for kilobytes, 'm'[m
+                 and 'M' for Megabytes, and finally 'g' and 'G' for Gigabytes.  Setting a size activates hash[m
+                 printing unconditionally.[m
+[m
+     [1mhelp[0m [[4mcommand[24m][m
+                 Print an informative message about the meaning of [4mcommand[24m.  If no argument is given, [1mftp[0m prints a[m
+                 list of the known commands.[m
+[m
+     [1midle[0m [[4mseconds[24m][m
+                 Set the inactivity timer on the remote server to [4mseconds[24m seconds.  If [4mseconds[24m is omitted, the[m
+                 current inactivity timer is printed.[m
+[m
+     [1mipany[0m       Allow the address resolver to return any address family.[m
+[m
+     [1mipv4[0m        Restrict the address resolver to look only for IPv4 addresses.[m
+[m
+     [1mipv6[0m        Restrict host adressing to IPv6 only.[m
+[m
+     [1mlcd[0m [[4mdirectory[24m][m
+                 Change the working directory on the local machine.  If no [4mdirectory[24m is specified, the user's home[m
+                 directory is used.[m
+[7m Manual page ftp(1) line 129 (press h for help or q to quit)[27m[K[K[m
+     [1mls[0m [[4mremote-directory[24m] [[4mlocal-file[24m][m
+                 Print a listing of the contents of a directory on the remote machine.  The listing includes any[m
+                 system-dependent information that the server chooses to include; for example, most UNIX systems[m
+                 will produce output from the command ‘ls -l’.  (See also [1mnlist[0m.)  If [4mremote-directory[24m is left[m
+                 unspecified, the current working directory is used.  If interactive prompting is on, [1mftp[0m will[m
+                 prompt the user to verify that the last argument is indeed the target local file for receiving [1mls[0m[m
+                 output.  If no local file is specified, or if [4mlocal-file[24m is ‘[1m-[0m’, the output is sent to the termi‐[m
+                 nal.[m
+[m
+     [1mmacdef[0m [4mmacro-name[24m[m
+                 Define a macro.  Subsequent lines are stored as the macro [4mmacro-name[24m; a null line (consecutive[m
+                 newline characters in a file or carriage returns from the terminal) terminates macro input mode.[m
+                 There is a limit of 16 macros and 4096 total characters in all defined macros.  Macros remain[m
+                 defined until a [1mclose[0m command is executed.  The macro processor interprets `$' and `\' as special[m
+                 characters.  A `$' followed by a number (or numbers) is replaced by the corresponding argument on[m
+                 the macro invocation command line.  A `$' followed by an `i' signals that macro processor that[m
+                 the executing macro is to be looped.  On the first pass `$i' is replaced by the first argument on[m
+                 the macro invocation command line, on the second pass it is replaced by the second argument, and[m
+                 so on.  A `\' followed by any character is replaced by that character.  Use the `\' to prevent[m
+                 special treatment of the `$'.[m
+[m
+     [1mmdelete[0m [[4mremote-files[24m][m
+                 Delete the [4mremote-files[24m on the remote machine.[m
+[m
+     [1mmdir[0m [4mremote-files[24m [4mlocal-file[24m[m
+                 Like [1mdir[0m, except multiple remote files may be specified.  If interactive prompting is on, [1mftp[0m[m
+                 will prompt the user to verify that the last argument is indeed the target local file for receiv‐[m
+                 ing [1mmdir[0m output.[m
+[m
+     [1mmget[0m [4mremote-files[24m[m
+                 Expand the [4mremote-files[24m on the remote machine and do a [1mget[0m for each file name thus produced.  See[m
+[7m Manual page ftp(1) line 161 (press h for help or q to quit)[27m[K[K                 [1mglob[0m for details on the filename expansion.  Resulting file names will then be processed accord‐[m
+                 ing to [1mcase[0m, [1mntrans[0m, and [1mnmap[0m settings.  Files are transferred into the local working directory,[m
+                 which can be changed with ‘lcd directory’; new local directories can be created with ‘! mkdir[m
+                 directory’.[m
+[m
+     [1mmkdir[0m [4mdirectory-name[24m[m
+                 Make a directory on the remote machine.[m
+[m
+     [1mmls[0m [4mremote-files[24m [4mlocal-file[24m[m
+                 Like [1mnlist[0m, except multiple remote files may be specified, and the [4mlocal-file[24m must be specified.[m
+                 If interactive prompting is on, [1mftp[0m will prompt the user to verify that the last argument is[m
+                 indeed the target local file for receiving [1mmls[0m output.[m
+[m
+     [1mmode[0m [[4mmode-name[24m][m
+                 Set the file transfer [1mmode[0m to [4mmode-name[24m.  The default mode is “stream” mode.[m
+[m
+     [1mmodtime[0m [4mfile-name[24m[m
+                 Show the last modification time of the file on the remote machine.[m
+[m
+     [1mmput[0m [4mlocal-files[24m[m
+                 Expand wild cards in the list of local files given as arguments and do a [1mput[0m for each file in the[m
+                 resulting list.  See [1mglob[0m for details of filename expansion.  Resulting file names will then be[m
+                 processed according to [1mntrans[0m and [1mnmap[0m settings.[m
+[m
+     [1mnewer[0m [4mfile-name[24m [[4mlocal-file[24m][m
+                 Get the file only if the modification time of the remote file is more recent that the file on the[m
+                 current system.  If the file does not exist on the current system, the remote file is considered[m
+                 [1mnewer[0m.  Otherwise, this command is identical to [4mget[24m.[m
+[m
+     [1mnlist[0m [[4mremote-directory[24m] [[4mlocal-file[24m][m
+                 Print a  list of the files in a directory on the remote machine.  If [4mremote-directory[24m is left[m
+                 unspecified, the current working directory is used.  If interactive prompting is on, [1mftp[0m will[m
+[7m Manual page ftp(1) line 193 (press h for help or q to quit)[27m[K[K                 prompt the user to verify that the last argument is indeed the target local file for receiving[m
+                 [1mnlist[0m output.  If no local file is specified, or if [4mlocal-file[24m is [1m-[0m, the output is sent to the[m
+                 terminal.[m
+[m
+     [1mnmap[0m [[4minpattern[24m [4moutpattern[24m][m
+                 Set or unset the filename mapping mechanism.  If no arguments are specified, the filename mapping[m
+                 mechanism is unset.  If arguments are specified, remote filenames are mapped during [1mmput[0m commands[m
+                 and [1mput[0m commands issued without a specified remote target filename.  If arguments are specified,[m
+                 local filenames are mapped during [1mmget[0m commands and [1mget[0m commands issued without a specified local[m
+                 target filename.  This command is useful when connecting to a non-UNIX remote computer with dif‐[m
+                 ferent file naming conventions or practices.  The mapping follows the pattern set by [4minpattern[24m[m
+                 and [4moutpattern[24m.  [[4mInpattern[24m] is a template for incoming filenames (which may have already been[m
+                 processed according to the [1mntrans[0m and [1mcase[0m settings).  Variable templating is accomplished by[m
+                 including the sequences `$1', `$2', ..., `$9' in [4minpattern[24m.  Use `\' to prevent this special[m
+                 treatment of the `$' character.  All other characters are treated literally, and are used to[m
+                 determine the [1mnmap[0m [[4minpattern[24m] variable values.  For example, given [4minpattern[24m $1.$2 and the[m
+                 remote file name "mydata.data", $1 would have the value "mydata", and $2 would have the value[m
+                 "data".  The [4moutpattern[24m determines the resulting mapped filename.  The sequences `$1', `$2',[m
+                 ...., `$9' are replaced by any value resulting from the [4minpattern[24m template.  The sequence `$0' is[m
+                 replace by the original filename.  Additionally, the sequence ‘[[4mseq1[24m, [4mseq2[24m]’ is replaced by[m
+                 [[4mseq1[24m] if [4mseq1[24m is not a null string; otherwise it is replaced by [4mseq2[24m.  For example, the command[m
+[m
+                       nmap $1.$2.$3 [$1,$2].[$2,file][m
+[m
+                 would yield the output filename "myfile.data" for input filenames "myfile.data" and[m
+                 "myfile.data.old", "myfile.file" for the input filename "myfile", and "myfile.myfile" for the[m
+                 input filename ".myfile".  Spaces may be included in [4moutpattern[24m, as in the example: `nmap $1 sed[m
+                 "s/  *$//" > $1' .  Use the `\' character to prevent special treatment of the `$','[','[', and[m
+                 `,' characters.[m
+[m
+     [1mntrans[0m [[4minchars[24m [[4moutchars[24m]][m
+                 Set or unset the filename character translation mechanism.  If no arguments are specified, the[m
+[7m Manual page ftp(1) line 225 (press h for help or q to quit)[27m[K[K                 filename character translation mechanism is unset.  If arguments are specified, characters in[m
+                 remote filenames are translated during [1mmput[0m commands and [1mput[0m commands issued without a specified[m
+                 remote target filename.  If arguments are specified, characters in local filenames are translated[m
+                 during [1mmget[0m commands and [1mget[0m commands issued without a specified local target filename.  This[m
+                 command is useful when connecting to a non-UNIX remote computer with different file naming con‐[m
+                 ventions or practices.  Characters in a filename matching a character in [4minchars[24m are replaced[m
+                 with the corresponding character in [4moutchars[24m.  If the character's position in [4minchars[24m is longer[m
+                 than the length of [4moutchars[24m, the character is deleted from the file name.[m
+[m
+     [1mopen[0m [4mhost[24m [[4mport[24m][m
+                 Establish a connection to the specified [4mhost[24m FTP server.  An optional port number may be sup‐[m
+                 plied, in which case, [1mftp[0m will attempt to contact an FTP server at that port.  If the [1mauto-login[0m[m
+                 option is on (default), [1mftp[0m will also attempt to automatically log the user in to the FTP server[m
+                 (see below).[m
+[m
+     [1mprompt[0m      Toggle interactive prompting.  Interactive prompting occurs during multiple file transfers to[m
+                 allow the user to selectively retrieve or store files.  If prompting is turned off (default is[m
+                 on), any [1mmget[0m or [1mmput[0m will transfer all files, and any [1mmdelete[0m will delete all files.[m
+[m
+     [1mproxy[0m [4mftp-command[24m[m
+                 Execute an ftp command on a secondary control connection.  This command allows simultaneous con‐[m
+                 nection to two remote ftp servers for transferring files between the two servers.  The first[m
+                 [1mproxy[0m command should be an [1mopen[0m, to establish the secondary control connection.  Enter the com‐[m
+                 mand "proxy ?" to see other ftp commands executable on the secondary connection.  The following[m
+                 commands behave differently when prefaced by [1mproxy[0m: [1mopen[0m will not define new macros during the[m
+                 auto-login process, [1mclose[0m will not erase existing macro definitions, [1mget[0m and [1mmget[0m transfer files[m
+                 from the host on the primary control connection to the host on the secondary control connection,[m
+                 and [1mput[0m, [1mmput[0m, and [1mappend[0m transfer files from the host on the secondary control connection to the[m
+                 host on the primary control connection.  Third party file transfers depend upon support of the[m
+                 ftp protocol PASV command by the server on the secondary control connection.[m
+[m
+     [1mput[0m [4mlocal-file[24m [[4mremote-file[24m][m
+[7m Manual page ftp(1) line 257 (press h for help or q to quit)[27m[K[K                 Store a local file on the remote machine.  If [4mremote-file[24m is left unspecified, the local file[m
+                 name is used after processing according to any [1mntrans[0m or [1mnmap[0m settings in naming the remote file.[m
+                 File transfer uses the current settings for [1mtype[0m, [1mformat[0m, [1mmode[0m, and [1mstructure[0m.[m
+[m
+     [1mpwd[0m         Print the name of the current working directory on the remote machine.[m
+[m
+     [1mquit[0m        A synonym for [1mbye[0m.[m
+[m
+     [1mquote[0m [4marg1[24m [4marg2[24m [4m...[24m[m
+                 The arguments specified are sent, verbatim, to the remote FTP server.[m
+[m
+     [1mrecv[0m [4mremote-file[24m [[4mlocal-file[24m][m
+                 A synonym for get.[m
+[m
+     [1mreget[0m [4mremote-file[24m [[4mlocal-file[24m][m
+                 Reget acts like get, except that if [4mlocal-file[24m exists and is smaller than [4mremote-file[24m, [4mlocal-file[24m[m
+                 is presumed to be a partially transferred copy of [4mremote-file[24m and the transfer is continued from[m
+                 the apparent point of failure.  If [4mlocal-file[24m does not exist ftp won't fetch the file.  This com‐[m
+                 mand is useful when transferring very large files over networks that are prone to dropping con‐[m
+                 nections.[m
+[m
+     [1mremotehelp[0m [[4mcommand-name[24m][m
+                 Request help from the remote FTP server.  If a [4mcommand-name[24m is specified it is supplied to the[m
+                 server as well.[m
+[m
+     [1mremotestatus[0m [[4mfile-name[24m][m
+                 With no arguments, show status of remote machine.  If [4mfile-name[24m is specified, show status of[m
+                 [4mfile-name[24m on remote machine.[m
+[m
+     [1mrename[0m [[4mfrom[24m] [[4mto[24m][m
+                 Rename the file [4mfrom[24m on the remote machine, to the file [4mto[24m.[m
+[m
+[7m Manual page ftp(1) line 289 (press h for help or q to quit)[27m[K[K     [1mreset[0m       Clear reply queue.  This command re-synchronizes command/reply sequencing with the remote ftp[m
+                 server.  Resynchronization may be necessary following a violation of the ftp protocol by the[m
+                 remote server.[m
+[m
+     [1mrestart[0m [4mmarker[24m[m
+                 Restart the immediately following [1mget[0m or [1mput[0m at the indicated [4mmarker[24m.  On UNIX systems, marker is[m
+                 usually a byte offset into the file.[m
+[m
+     [1mrmdir[0m [4mdirectory-name[24m[m
+                 Delete a directory on the remote machine.[m
+[m
+     [1mrunique[0m     Toggle storing of files on the local system with unique filenames.  If a file already exists with[m
+                 a name equal to the target local filename for a [1mget[0m or [1mmget[0m command, a ".1" is appended to the[m
+                 name.  If the resulting name matches another existing file, a ".2" is appended to the original[m
+                 name.  If this process continues up to ".99", an error message is printed, and the transfer does[m
+                 not take place.  The generated unique filename will be reported.  Note that [1mrunique[0m will not[m
+                 affect local files generated from a shell command (see below).  The default value is off.[m
+[m
+     [1msend[0m [4mlocal-file[24m [[4mremote-file[24m][m
+                 A synonym for put.[m
+[m
+     [1msendport[0m    Toggle the use of PORT commands.  By default, [1mftp[0m will attempt to use a PORT command when estab‐[m
+                 lishing a connection for each data transfer.  The use of PORT commands can prevent delays when[m
+                 performing multiple file transfers.  If the PORT command fails, [1mftp[0m will use the default data[m
+                 port.  When the use of PORT commands is disabled, no attempt will be made to use PORT commands[m
+                 for each data transfer.  This is useful for certain FTP implementations which do ignore PORT com‐[m
+                 mands but, incorrectly, indicate they've been accepted.[m
+[m
+     [1msite[0m [4marg1[24m [4marg2[24m [4m...[24m[m
+                 The arguments specified are sent, verbatim, to the remote FTP server as a SITE command.[m
+[m
+     [1msize[0m [4mfile-name[24m[m
+[7m Manual page ftp(1) line 321 (press h for help or q to quit)[27m[K[K                 Return size of [4mfile-name[24m on remote machine.[m
+[m
+     [1mstatus[0m      Show the current status of [1mftp[0m.[m
+[m
+     [1mstruct[0m [[4mstruct-name[24m][m
+                 Set the file transfer [4mstructure[24m to [4mstruct-name[24m.  By default “stream” structure is used.[m
+[m
+     [1msunique[0m     Toggle storing of files on remote machine under unique file names.  Remote ftp server must sup‐[m
+                 port ftp protocol STOU command for successful completion.  The remote server will report unique[m
+                 name.  Default value is off.[m
+[m
+     [1msystem[0m      Show the type of operating system running on the remote machine.[m
+[m
+     [1mtenex[0m       Set the file transfer type to that needed to talk to TENEX machines.[m
+[m
+     [1mtrace[0m       Toggle packet tracing.[m
+[m
+     [1mtype[0m [[4mtype-name[24m][m
+                 Set the file transfer [1mtype[0m to [4mtype-name[24m.  If no type is specified, the current type is printed.[m
+                 The default type is network ASCII.[m
+[m
+     [1mumask[0m [[4mnewmask[24m][m
+                 Set the default umask on the remote server to [4mnewmask[24m.  If [4mnewmask[24m is omitted, the current umask[m
+                 is printed.[m
+[m
+     [1muser[0m [4muser-name[24m [[4mpassword[24m] [[4maccount[24m][m
+                 Identify yourself to the remote FTP server.  If the [4mpassword[24m is not specified and the server[m
+                 requires it, [1mftp[0m will prompt the user for it (after disabling local echo).  If an [4maccount[24m field[m
+                 is not specified, and the FTP server requires it, the user will be prompted for it.  If an[m
+                 [4maccount[24m field is specified, an account command will be relayed to the remote server after the[m
+                 login sequence is completed if the remote server did not require it for logging in.  Unless [1mftp[0m[m
+                 is invoked with “auto-login” disabled, this process is done automatically on initial connection[m
+[7m Manual page ftp(1) line 353 (press h for help or q to quit)[27m[K[K                 to the FTP server.[m
+[m
+     [1mverbose[0m     Toggle verbose mode.  In verbose mode, all responses from the FTP server are displayed to the[m
+                 user.  In addition, if verbose is on, when a file transfer completes, statistics regarding the[m
+                 efficiency of the transfer are reported.  By default, verbose is on.[m
+[m
+     ? [[4mcommand[24m][m
+                 A synonym for help.[m
+[m
+     Command arguments which have embedded spaces may be quoted with quote `"' marks.[m
+[m
+[1mABORTING[0m [1mA[0m [1mFILE[0m [1mTRANSFER[0m[m
+     To abort a file transfer, use the terminal interrupt key (usually Ctrl-C).  Sending transfers will be immedi‐[m
+     ately halted.  Receiving transfers will be halted by sending a ftp protocol ABOR command to the remote[m
+     server, and discarding any further data received.  The speed at which this is accomplished depends upon the[m
+     remote server's support for ABOR processing.  If the remote server does not support the ABOR command, an[m
+     ‘ftp>’ prompt will not appear until the remote server has completed sending the requested file.[m
+[m
+     The terminal interrupt key sequence will be ignored when [1mftp[0m has completed any local processing and is await‐[m
+     ing a reply from the remote server.  A long delay in this mode may result from the ABOR processing described[m
+     above, or from unexpected behavior by the remote server, including violations of the ftp protocol.  If the[m
+     delay results from unexpected remote server behavior, the local [1mftp[0m program must be killed by hand.[m
+[m
+[1mFILE[0m [1mNAMING[0m [1mCONVENTIONS[0m[m
+     Files specified as arguments to [1mftp[0m commands are processed according to the following rules.[m
+[m
+     1.   If the file name ‘[1m-[0m’ is specified, the [4mstdin[24m (for reading) or [4mstdout[24m (for writing) is used.[m
+[m
+     2.   If the first character of the file name is ‘|’, the remainder of the argument is interpreted as a shell[m
+          command.  [1mFtp[0m then forks a shell, using popen(3) with the argument supplied, and reads (writes) from the[m
+          stdout (stdin).  If the shell command includes spaces, the argument must be quoted; e.g.  “" ls -lt"”.[m
+          A particularly useful example of this mechanism is: “dir more”.[m
+[7m Manual page ftp(1) line 385 (press h for help or q to quit)[27m[K[K[m
+     3.   Failing the above checks, if ``globbing'' is enabled, local file names are expanded according to the[m
+          rules used in the csh(1); c.f. the [1mglob[0m command.  If the [1mftp[0m command expects a single local file (.e.g.[m
+          [1mput[0m), only the first filename generated by the "globbing" operation is used.[m
+[m
+     4.   For [1mmget[0m commands and [1mget[0m commands with unspecified local file names, the local filename is the remote[m
+          filename, which may be altered by a [1mcase[0m, [1mntrans[0m, or [1mnmap[0m setting.  The resulting filename may then be[m
+          altered if [1mrunique[0m is on.[m
+[m
+     5.   For [1mmput[0m commands and [1mput[0m commands with unspecified remote file names, the remote filename is the local[m
+          filename, which may be altered by a [1mntrans[0m or [1mnmap[0m setting.  The resulting filename may then be altered[m
+          by the remote server if [1msunique[0m is on.[m
+[m
+[1mFILE[0m [1mTRANSFER[0m [1mPARAMETERS[0m[m
+     The FTP specification specifies many parameters which may affect a file transfer.  The [1mtype[0m may be one of[m
+     “ascii”, “image” (binary), “ebcdic”, and “local byte size” (for PDP-10's and PDP-20's mostly).  [1mFtp[0m supports[m
+     the ascii and image types of file transfer, plus local byte size 8 for [1mtenex[0m mode transfers.[m
+[m
+     [1mFtp[0m supports only the default values for the remaining file transfer parameters: [1mmode[0m, [1mform[0m, and [1mstruct[0m.[m
+[m
+[1mENVIRONMENT[0m[m
+     [1mFtp[0m utilizes the following environment variables.[m
+[m
+     HOME        For default location of a [4m.netrc[24m file, if one exists.[m
+[m
+     SHELL       For default shell.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+     ftpd(8), netrc(5), RFC 959[m
+[m
+[1mHISTORY[0m[m
+     The [1mftp[0m command appeared in 4.2BSD.[m
+[7m Manual page ftp(1) line 417 (press h for help or q to quit)[27m[K[K[m
+[1mBUGS[0m[m
+     Correct execution of many commands depends upon proper behavior by the remote server.[m
+[m
+     An error in the treatment of carriage returns in the 4.2BSD ascii-mode transfer code has been corrected.[m
+     This correction may result in incorrect transfers of binary files to and from 4.2BSD servers using the ascii[m
+     type.  Avoid this problem by using the binary image type.[m
+[m
+Linux NetKit (0.17)                               August 15, 1999                              Linux NetKit (0.17)[m
+[7m Manual page ftp(1) line 426/457 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page ftp(1) line 426/457 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[00m$ ftp
+ftp> 10.237.54.92
+?Invalid command
+ftp> co[K[Khelp
+Commands may be abbreviated.  Commands are:
+
+!		dir		mdelete		qc		site
+$		disconnect	mdir		sendport	size
+account		exit		mget		put		status
+append		form		mkdir		pwd		struct
+ascii		get		mls		quit		system
+bell		glob		mode		quote		sunique
+binary		hash		modtime		recv		tenex
+bye		help		mput		reget		tick
+case		idle		newer		rstatus		trace
+cd		image		nmap		rhelp		type
+cdup		ipany		nlist		rename		user
+chmod		ipv4		ntrans		reset		umask
+close		ipv6		open		restart		verbose
+cr		lcd		prompt		rmdir		?
+delete		ls		passive		runique
+debug		macdef		proxy		send
+ftp> ping 10.237.54.92
+?Invalid command
+ftp> exit
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[00m$ ?[Kman f tp
+[?1049h[22;0;0t[?1h=FTP(1)                                      BSD General Commands Manual                                     FTP(1)[m
+[m
+[1mNAME[0m[m
+     [1mftp[0m — Internet file transfer program[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mftp[0m [[1m-46pinegvd[0m] [[4mhost[24m [[4mport[24m]][m
+     [1mpftp[0m [[1m-46inegvd[0m] [[4mhost[24m [[4mport[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+     [1mFtp[0m is the user interface to the Internet standard File Transfer Protocol.  The program allows a user to[m
+     transfer files to and from a remote network site.[m
+[m
+     Options may be specified at the command line, or to the command interpreter.[m
+[m
+     [1m-4[0m    Use only IPv4 to contact any host.[m
+[m
+     [1m-6[0m    Use IPv6 only.[m
+[m
+     [1m-p[0m    Use passive mode for data transfers. Allows use of ftp in environments where a firewall prevents con‐[m
+           nections from the outside world back to the client machine. Requires that the ftp server support the[m
+           PASV command. This is the default if invoked as [1mpftp.[0m[m
+[m
+     [1m-i[0m    Turns off interactive prompting during multiple file transfers.[m
+[m
+     [1m-n[0m    Restrains [1mftp[0m from attempting “auto-login” upon initial connection.  If auto-login is enabled, [1mftp[0m will[m
+           check the [4m.netrc[24m (see netrc(5)) file in the user's home directory for an entry describing an account on[m
+           the remote machine.  If no entry exists, [1mftp[0m will prompt for the remote machine login name (default is[m
+           the user identity on the local machine), and, if necessary, prompt for a password and an account with[m
+           which to login.[m
+[m
+     [1m-e[0m    Disables command editing and history support, if it was compiled into the [1mftp[0m executable. Otherwise,[m
+[7m Manual page ftp(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[00m$ ftp 1 0.237.54.92
+Connected to 10.237.54.92.
+220 Microsoft FTP Service
+Name (10.237.54.92:Jackson144): ls
+331 Password required
+Password:
+; 530 User cannot log in.
+Login failed.
+Remote system type is Windows_NT.
+ftp> exit
+221 Goodbye.
+]0;Jackson144@MISAGMCBA304839: /mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[01;32mJackson144@MISAGMCBA304839[00m:[01;34m/mnt/c/Users/ljack099/OneDrive - Ascension/Programming/Terminals/Linux/bash_scripts[00m$ exit
+exit
+
+Script done on 2018-12-05 12:55:07-0500
